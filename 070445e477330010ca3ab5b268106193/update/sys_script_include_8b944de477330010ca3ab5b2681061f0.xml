@@ -5,7 +5,7 @@
         <api_name>global.Beta</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
-        <description>beta</description>
+        <description>beta beta</description>
         <name>Beta</name>
         <script><![CDATA[var Beta = Class.create();
 Beta.prototype = {
@@ -18,13 +18,13 @@ Beta.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-23 15:10:42</sys_created_on>
         <sys_id>8b944de477330010ca3ab5b2681061f0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Beta</sys_name>
         <sys_package display_value="globaltable" source="070445e477330010ca3ab5b268106193">070445e477330010ca3ab5b268106193</sys_package>
         <sys_policy/>
         <sys_scope display_value="globaltable">070445e477330010ca3ab5b268106193</sys_scope>
         <sys_update_name>sys_script_include_8b944de477330010ca3ab5b2681061f0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-23 15:11:44</sys_updated_on>
+        <sys_updated_on>2020-03-23 15:21:54</sys_updated_on>
     </sys_script_include>
 </record_update>

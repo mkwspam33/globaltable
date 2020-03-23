@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-23 15:21:07</sys_created_on>
+        <sys_id>6407856877330010ca3ab5b26810614b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_table2.globaltable_user</sys_name>
+        <sys_package display_value="globaltable" source="070445e477330010ca3ab5b268106193">070445e477330010ca3ab5b268106193</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="globaltable">070445e477330010ca3ab5b268106193</sys_scope>
+        <sys_security_acl display_value="u_table2">d807856877330010ca3ab5b268106147</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6407856877330010ca3ab5b26810614b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-23 15:21:07</sys_updated_on>
+        <sys_user_role display_value="globaltable_user" name="globaltable_user">0b0445e477330010ca3ab5b26810618d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="globaltable">070445e477330010ca3ab5b268106193</application>
+        <file_path/>
+        <instance_id>evosandbox8082</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_security_acl_role_6407856877330010ca3ab5b26810614b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-23 15:21:07</sys_created_on>
+        <sys_id>6407856877330010ca3ab5b26810614b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_table2.globaltable_user</sys_name>
+        <sys_package display_value="globaltable" source="070445e477330010ca3ab5b268106193">070445e477330010ca3ab5b268106193</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="globaltable">070445e477330010ca3ab5b268106193</sys_scope>
+        <sys_security_acl display_value="u_table2">d807856877330010ca3ab5b268106147</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6407856877330010ca3ab5b26810614b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-23 15:21:07</sys_updated_on>
+        <sys_user_role display_value="globaltable_user" name="globaltable_user">0b0445e477330010ca3ab5b26810618d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-1596796800</payload_hash>
+        <record_name>u_table2.globaltable_user</record_name>
+        <reverted_from/>
+        <source>2617cd2877330010ca3ab5b268106153</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-23 15:21:34</sys_created_on>
+        <sys_id>df17cd2877330010ca3ab5b2681061f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17107fc1b860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-23 15:21:34</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>9f17cd28fd330010c5ee0dfbbaf438f1</update_guid>
+        <update_guid_history>9f17cd28fd330010c5ee0dfbbaf438f1:-1596796800</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="u_table2.globaltable_user">6d47056877330010ca3ab5b26810614f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-23 15:22:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>66bb3d069e984bfc952bf6cecf9aca09</sys_id>
+        <sys_metadata>6407856877330010ca3ab5b26810614b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_table2.globaltable_user</sys_name>
+        <sys_package display_value="globaltable" source="070445e477330010ca3ab5b268106193">070445e477330010ca3ab5b268106193</sys_package>
+        <sys_parent display_value="">d807856877330010ca3ab5b268106147</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="globaltable">070445e477330010ca3ab5b268106193</sys_scope>
+        <sys_scope_delete display_value="">08efef81d7e14d18815eca69e165d571</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_6407856877330010ca3ab5b26810614b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_6407856877330010ca3ab5b26810614b">df17cd2877330010ca3ab5b2681061f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-23 15:22:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
