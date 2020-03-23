@@ -60,7 +60,7 @@
         <update_guid_history>da21116432330010bd7e626aa9b26c17:1427557678</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">59e1196477330010ca3ab5b2681061fd</sys_audit_delete>
+        <sys_audit_delete display_value="u_table5.globaltable_user">59e1196477330010ca3ab5b2681061fd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-03-23 16:08:41</sys_created_on>
