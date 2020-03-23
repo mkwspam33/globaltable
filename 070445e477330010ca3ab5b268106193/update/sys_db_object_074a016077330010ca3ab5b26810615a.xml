@@ -11,9 +11,9 @@
         <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
-        <label>Table2</label>
+        <label>Table3</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>u_table2</name>
+        <name>u_table3</name>
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
@@ -23,16 +23,16 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-03-23 15:21:06</sys_created_on>
-        <sys_id>66e6416877330010ca3ab5b2681061a0</sys_id>
+        <sys_created_on>2020-03-23 15:35:03</sys_created_on>
+        <sys_id>074a016077330010ca3ab5b26810615a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Table2</sys_name>
+        <sys_name>Table3</sys_name>
         <sys_package display_value="globaltable" source="070445e477330010ca3ab5b268106193">070445e477330010ca3ab5b268106193</sys_package>
         <sys_policy/>
         <sys_scope display_value="globaltable">070445e477330010ca3ab5b268106193</sys_scope>
-        <sys_update_name>sys_db_object_66e6416877330010ca3ab5b2681061a0</sys_update_name>
+        <sys_update_name>sys_db_object_074a016077330010ca3ab5b26810615a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-23 15:21:06</sys_updated_on>
+        <sys_updated_on>2020-03-23 15:35:03</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="globaltable_user" name="globaltable_user">0b0445e477330010ca3ab5b26810618d</user_role>
         <ws_access>true</ws_access>
