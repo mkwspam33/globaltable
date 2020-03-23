@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>u_table3</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-23 15:35:30</sys_created_on>
+        <sys_id>db4a016077330010ca3ab5b268106186</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_table3</sys_name>
+        <sys_package display_value="globaltable" source="070445e477330010ca3ab5b268106193">070445e477330010ca3ab5b268106193</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="globaltable">070445e477330010ca3ab5b268106193</sys_scope>
+        <sys_update_name>ua_table_licensing_config_db4a016077330010ca3ab5b268106186</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-23 15:35:30</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="globaltable">070445e477330010ca3ab5b268106193</application>
+        <file_path/>
+        <instance_id>evosandbox8082</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>ua_table_licensing_config_db4a016077330010ca3ab5b268106186</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>u_table3</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-23 15:35:30</sys_created_on><sys_id>db4a016077330010ca3ab5b268106186</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_table3</sys_name><sys_package display_value="globaltable" source="070445e477330010ca3ab5b268106193">070445e477330010ca3ab5b268106193</sys_package><sys_policy/><sys_scope display_value="globaltable">070445e477330010ca3ab5b268106193</sys_scope><sys_update_name>ua_table_licensing_config_db4a016077330010ca3ab5b268106186</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-23 15:35:30</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>-1466867458</payload_hash>
+        <record_name>u_table3</record_name>
+        <reverted_from/>
+        <source>3544c5a477330010ca3ab5b268106142</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-23 15:35:30</sys_created_on>
+        <sys_id>5b4a016077330010ca3ab5b268106188</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1710808db340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-23 15:35:30</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>934a01608533001052612b281dc19e88</update_guid>
+        <update_guid_history>934a01608533001052612b281dc19e88:-1466867458</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-23 15:36:38</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>375def0116114cd08e23bfcba8ceecc4</sys_id>
+        <sys_metadata>db4a016077330010ca3ab5b268106186</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_table3</sys_name>
+        <sys_package display_value="globaltable" source="070445e477330010ca3ab5b268106193">070445e477330010ca3ab5b268106193</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="globaltable">070445e477330010ca3ab5b268106193</sys_scope>
+        <sys_scope_delete display_value="">08efef81d7e14d18815eca69e165d571</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_db4a016077330010ca3ab5b268106186</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_db4a016077330010ca3ab5b268106186">5b4a016077330010ca3ab5b268106188</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-23 15:36:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
