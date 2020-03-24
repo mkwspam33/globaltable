@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.MegaphoneBroadcast</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Broadcasting messages for megaphone - GLOBALBLOBAL UPDATE SET 2</description>
+        <name>MegaphoneBroadcast</name>
+        <script><![CDATA[var MegaphoneBroadcast = Class.create();
+MegaphoneBroadcast.prototype = {
+	initialize: function(messageSysId) {
+		this.message = null;
+		var msg = new GlideRecord('sys_broadcast_message');
+		msg.get(messageSysId);
+		
+		if(msg.isValidRecord()) {
+			this.message = msg;
+			this.sys_id = messageSysId;
+		}
+	},
+	
+	broadcastMessage: function() {
+		if(this.message === null || !this.message.isValidRecord()) {
+			gs.warn("Did not find the message.");
+			return;
+		}
+		
+		if(this._isActive()) {
+			this._alertLoggedInUsers();
+			this._sendEmail();
+		}
+	},
+	
+	_isActive: function() {
+		var now = new GlideDateTime();
+		return(now >= this.message.notify_users_after_date && now <= this.message.notify_users_until_date);
+	},
+	
+	//Alert users that are currently logged in
+	_alertLoggedInUsers: function() {
+		if(!this.message.logged_in)
+			return;
+		
+		var roles = this.message.user_filter;
+		if(this.message.any_roled_user)
+			roles = "";
+		try {
+			SNC.MegaphoneBroadcast.addMegaphoneMessageToAllLoggedInSessionsOnAllNodes(this.sys_id);
+		}
+		catch(ex) {
+			gs.warn("Unable to alert logged in users for megaphone message: " + this.message.sys_id);
+		}
+	},
+	
+	_sendEmail: function() {
+		if(!this.message.email)
+			return;
+		
+		if(this.message.email_sent)
+			return;
+		
+		SNC.MegaphoneBroadcast.broadcastEmail(this.sys_id);
+	},
+	
+	type: 'MegaphoneBroadcast'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2015-06-09 19:57:13</sys_created_on>
+        <sys_id>7c000f2147200200151119fbac9a716c</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>MegaphoneBroadcast</sys_name>
+        <sys_package display_value="Broadcast Messages" source="com.snc.mega_cust">2a2f1f8344670010e8397697005557bc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="globaltable">070445e477330010ca3ab5b268106193</sys_scope>
+        <sys_update_name>sys_script_include_7c000f2147200200151119fbac9a716c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-24 18:33:15</sys_updated_on>
+    </sys_script_include>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="globaltable">070445e477330010ca3ab5b268106193</claim_owner_scope>
+        <claim_timestamp>1710dd1f4eb0000001</claim_timestamp>
+        <metadata_update_name>sys_script_include_7c000f2147200200151119fbac9a716c</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>globaltable</previous_claim_name>
+        <previous_claim_scope>070445e477330010ca3ab5b268106193</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-24 18:33:15</sys_created_on>
+        <sys_id>309c32f877330010ca3ab5b268106179</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-24 18:33:15</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="globaltable">070445e477330010ca3ab5b268106193</claim_owner_scope>
+        <claim_timestamp>1710dd1f4e30000001</claim_timestamp>
+        <metadata_update_name>sys_script_include_7c000f2147200200151119fbac9a716c</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.snc.mega_cust</previous_claim_name>
+        <previous_claim_scope>com.snc.mega_cust</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-24 18:33:15</sys_created_on>
+        <sys_id>f09c32f877330010ca3ab5b268106179</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-24 18:33:15</sys_updated_on>
+    </sys_claim>
+</record_update>
